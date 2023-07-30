@@ -1,0 +1,75 @@
+body {
+  background-image: url(IMG/background.jpg);
+  background-size: cover;
+}
+
+.contenitore{
+width: 1000px;
+margin: auto;
+text-align: center;
+margin-top: 50px;
+padding-top: 100px; padding-bottom: 100px; padding-left: 100px; padding-right: 100px;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 2%;
+background-size: 1200px 600px;
+}
+
+header > img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 25%;
+ margin-bottom: -5px;
+}
+
+header > h1 {
+  text-align: center;
+  color: #08dc04;
+  font-size: 30px;
+  font-family: verdana;
+}
+
+/*NAV*/
+.pulsanti {
+  background-color: #08dc04;
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-top: -10px;
+} /*NAV-end*/
+
+main{
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  font-stretch: expanded;
+  font-size: 20px;
+}
+
+.monopattino-nome{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#rettangolo1{
+  border-radius: 10px;
+  background: #FF9C33;
+  padding: 10px;
+  width: 350px; height: 10px;
+  margin-bottom: 30px;
+}
+
+#rettangolo2{
+  border-radius: 10px;
+  background: #63FF74;
+  padding: 10px;
+  width: 600px; height: 10px;
+  margin-bottom: 30px;
+}
+
+#rettangolo3{
+  border-radius: 10px;
+  background: #FF4F4F;
+  padding: 10px;
+  width: 150px; height: 10px;
+  margin-bottom: 30px;
+}
